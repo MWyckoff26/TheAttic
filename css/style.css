@@ -1,0 +1,266 @@
+/***************************
+    Universal Styles 
+****************************/
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Single Day', cursive;
+}
+
+/***************************
+    Header Styles 
+****************************/
+.header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.150),rgba(255, 255, 255, 0.150)), url(../pictures/bookshelf2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: #FFFAF5;
+}
+
+.header img{
+    width: 250px;
+    float: left;
+    left:50px;
+    margin-top: 70px;
+    margin-left: -300px;
+    border-radius: 50%;
+}
+
+.buttons{
+    margin-right: -300px;
+    font-size: 20px;
+}
+
+.login-btn-1{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #FFFAF5;
+    border-radius: 50px;
+    background: transparent;
+    color:#FFFAF5;
+    float: right;
+    margin-top: 55px;
+}
+
+.login-btn-2{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #FFFAF5;
+    border-radius: 50px;
+    background: transparent;
+    color: #FFFAF5;
+    float: right;
+    margin: 55px 20px 0 20px;
+}
+
+.login-btn-3{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #FFFAF5;
+    border-radius: 50px;
+    background: transparent;
+    color:#FFFAF5;
+    float: right;
+    margin-top: 55px;
+}
+
+.header h1{
+    padding-top: 260px;
+    padding-bottom: 0;
+    font-size: 90px;
+}
+
+.header p{
+    margin: 18px 0;
+    font-size: 50px;
+}
+
+.input-group{
+    width: 90% !important;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #FFFAF5;
+    margin: auto;
+    padding: 2px;
+}
+
+.form-control{
+    border:0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+
+.input-group-text{
+    width: 100px;
+    background-image: linear-gradient(#3D405B, #3D405B);
+    border: 0 !important;
+    color: #FFFAF5 !important;
+    padding: 8px 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+
+/***************************
+    Gallery Styles 
+****************************/
+
+.gallery{
+    padding: 350px 0;
+    background: #3D405B;
+}
+
+.gallery h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 75px;
+    color: #fff;
+}
+
+.gallery-box img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 5px solid #fff;
+}
+
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+
+.gallery-box h4{
+    display: block;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+/***************************
+    Banner Styles 
+****************************/
+
+.banner{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../pictures/banner2.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+
+.banner-highlights{
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+
+.booking-btn{
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.booking-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner-highlights h2{
+    font-size: 50px;
+}
+
+.banner-highlights p{
+    font-size: 25px;
+}
+
+/***************************
+    Reviews Styles 
+****************************/
+
+.user-feedback{
+    padding-bottom: 50px;
+    background-color: #FFFAF5;
+}
+
+.user-reviews{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(35,34,35,0.258);
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.user-reviews p{
+    padding: 50px 10px 10px;
+}
+
+.user-feedback h1{
+    padding-top: 45px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.user-reviews h3{
+    padding-top: 20px;
+    padding-bottom: -80px !important;
+}
+
+/***************************
+    Footer Styles 
+****************************/
+
+.footer{
+    padding: 100px 20px 15px;
+    background-image: linear-gradient(#8A484C, #8A484C);
+    color:#fff;
+}
+
+.footer-logo{
+    width: 250px;
+    margin-bottom: 50px;
+    margin-left: -130px;
+    border-radius: 50%;
+}
+
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+
+.footer .copyright{
+    text-align: center;
+}
